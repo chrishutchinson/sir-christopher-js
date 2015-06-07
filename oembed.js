@@ -33,7 +33,7 @@ SirTrevor.Blocks.Oembed = SirTrevor.Block.extend({
   icon_name: 'default',
 
   drop_options: {
-    html: '<div class="st-block__message"><p>oEmbed will automatically handle the embedding of your media content (a list of sites you can embed from can be found <a href="https://github.com/nfl/jquery-oembed-all#current-3rd-party-sources-include">here</a>).</p><p>Just supply a normal link below and the rest will be taken care of.</p></div>',
+    html: '<div class="st-block__message" style="text-align: center; width: 80%; margin: 0 auto;"><p>oEmbed will automatically handle the embedding of your media content (a list of sites you can embed from can be found <a href="https://github.com/nfl/jquery-oembed-all#current-3rd-party-sources-include">here</a>).</p><p>Just supply a normal link below and the rest will be taken care of.</p></div>',
   },
 
   paste_options: {

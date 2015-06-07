@@ -1,0 +1,25 @@
+{
+  "name": "Sir Christopher JS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/chrishutchinson/sir-trevor-blocks",
+  "authors": [
+    "Chris Hutchinson <chris_hutchinson@me.com>"
+  ],
+  "description": "A series of custom Sir Trevor JS blocks",
+  "main": [
+    "cartodb.js",
+    "oembed.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sir-trevor-js": "~0.5.0-beta3",
+    "jquery-oembed-all": "starfishmod/jquery-oembed-all"
+  }
+}
