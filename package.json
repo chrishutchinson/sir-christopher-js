@@ -1,0 +1,26 @@
+{
+  "name": "sir-christopher-js",
+  "version": "0.0.1",
+  "description": "### By [Chris Hutchinson](http://www.github.com/chrishutchinson) 2015",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-install-simple": "^1.1.3",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-uglify": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrishutchinson/sir-christopher-js.git"
+  },
+  "author": "Chris Hutchinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrishutchinson/sir-christopher-js/issues"
+  },
+  "homepage": "https://github.com/chrishutchinson/sir-christopher-js"
+}

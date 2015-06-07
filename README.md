@@ -1,6 +1,9 @@
-# Custom Blocks for Sir Trevor JS
+# Sir Christopher JS
+## Custom Blocks for Sir Trevor JS
 
-## By [Chris Hutchinson](http://www.github.com/chrishutchinson) 2015
+### By [Chris Hutchinson](http://www.github.com/chrishutchinson) 2015
+
+---
 
 ### Blocks
 
