@@ -10,7 +10,8 @@ module.exports = function(grunt) {
             'bower_components/jquery/jquery.min.js',
             'bower_components/Eventable/eventable.js',
             'bower_components/jquery-oembed-all/jquery.oembed.js',
-            'bower_components/sir-trevor-js/sir-trevor.min.js'
+            'bower_components/sir-trevor-js/sir-trevor.js'
+            //'bower_components/sir-trevor-generator/block.js'
           ]
         }
       }

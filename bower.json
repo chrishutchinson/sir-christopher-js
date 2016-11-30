@@ -19,7 +19,10 @@
     "tests"
   ],
   "dependencies": {
-    "sir-trevor-js": "~0.5.0-beta3",
-    "jquery-oembed-all": "starfishmod/jquery-oembed-all"
+    "sir-trevor-js": "~0.5.0",
+    "jquery-oembed-all": "starfishmod/jquery-oembed-all",
+    "sir-trevor-generator": "*",
+    "scribe-plugin-sanitizer": "~0.1.9",
+    "handsontable": "~0.18.0"
   }
 }

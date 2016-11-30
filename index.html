@@ -5,6 +5,9 @@
   <!-- Vendor, Bower Component Styles -->
   <link rel="stylesheet" href="styles/vendor.min.css" />
   <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.14/themes/css/cartodb.css" />
+  <link rel="stylesheet" href="bower_components/handsontable/dist/handsontable.full.css" />
+  <link rel="stylesheet" href="bower_components/select2/dist/css/select2.min.css" />
+  <link rel="stylesheet" href="bower_components/sir-trevor-generator/block.css" />
 
   <!-- Main Styles -->
   <link rel="stylesheet" href="styles/index.css" />
@@ -20,7 +23,8 @@
   </ul>
   <hr />
   <form>
-    <textarea class="js-st-instance"></textarea>
+  <!--{"data":[{"type":"repeater","data":{"item":[{"size":"5.5","media":"http://nuk-tnl-edtl-videoanalyser-dev.s3.amazonaws.com/videos/quotes/54/snippet_54.mp4","name":"fdsa","description":"fsda"},{"size":"5.5","media":"http://www.thetimes.co.uk/tto/multimedia/archive/00960/NIP000178853113_960653d.jpg","name":"fdsafdsa","description":"fdsafds"}],"textarea":"<p>fdsa</p>"}}]}-->
+    <textarea class="js-st-instance">{"data":[{"type":"newtextblock","data":{"inlineTextAgain":"fdsafds","inlineText":"<p>afdsafgfdafd</p>"}},{"type":"newtextblock","data":{"inlineTextAgain":"fdsafdsaf","inlineText":"<p>dsaf</p>"}}]}</textarea>
     <input type="submit" value="See output JSON" class="button submit" />
   </form>
   <hr />
@@ -30,10 +34,22 @@
 <!-- Vendor, Bower Component Scripts -->
 <script src="scripts/vendor.min.js" type="text/javascript"></script>
 <script src="http://libs.cartocdn.com/cartodb.js/v3/3.14/cartodb.js"></script>
+<script src="bower_components/sir-trevor-generator/block.js" type="text/javascript"></script>
+<script src="bower_components/handsontable/dist/handsontable.full.js" type="text/javascript"></script>
+<script src="bower_components/select2/dist/js/select2.min.js" type="text/javascript"></script>
 
 <!-- Main Scripts -->
+<script src="someblock.js" type="text/javascript"></script>
 <script src="cartodb.js" type="text/javascript"></script>
-<script src="oembed.js" type="text/javascript"></script>
+<script src="media-header.js" type="text/javascript"></script>
+<script src="newoembed.js" type="text/javascript"></script>
+<script src="repeater.js" type="text/javascript"></script>
+<script src="selectblock.js" type="text/javascript"></script>
+<script src="table.js" type="text/javascript"></script>
+<script src="newtextblock.js" type="text/javascript"></script>
+<script src="highcharts.js" type="text/javascript"></script>
+<script src="auto-component.js" type="text/javascript"></script>
+
 <script src="scripts/index.js" type="text/javascript"></script>
 
 </body>
